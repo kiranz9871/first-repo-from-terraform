@@ -10,8 +10,8 @@ pipeline {
     stage('build') {
       steps {
         sh '''echo "building the job"
-sh ls 
-sh pwd'''
+ls 
+pwd'''
       }
     }
 
