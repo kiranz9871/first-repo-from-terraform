@@ -9,9 +9,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh '''echo "building the job"
-ls 
-pwd'''
+        sh 'echo "building the job"'
       }
     }
 
